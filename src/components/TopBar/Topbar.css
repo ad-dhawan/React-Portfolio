@@ -1,0 +1,54 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: #353637;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  color: orange;
+  margin-right: 40px;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  width: 32px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hamburger > span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+@media screen and (max-width: 786px){
+    .itemContainer{
+        display: none;
+    }
+}
