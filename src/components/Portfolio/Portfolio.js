@@ -3,10 +3,10 @@ import "./Portfolio.scss";
 import PortfolioList from "../PortfolioList/PortfolioList";
 
 import {
-  projectsPortfolio,
+  // projectsPortfolio,
   skillsPortfolio,
   experiencePortfolio,
-  designPortfolio,
+  // designPortfolio,
 } from "../data";
 
 const Portfolio = () => {
