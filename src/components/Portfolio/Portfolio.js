@@ -10,7 +10,7 @@ import {
 } from "../data";
 
 const Portfolio = () => {
-  const [selected, setSelected] = useState("projects");
+  const [selected, setSelected] = useState("skills");
   const [data, setData] = useState([]);
   const list = [
     // {
