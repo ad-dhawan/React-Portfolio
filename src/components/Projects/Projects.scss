@@ -1,0 +1,54 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black h1 {
+    font-size: 50px;
+  }
+
+  .container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 786px) {
+      width: 90%;
+    }
+  }
+}
+
+.modal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .modal-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 20px;
+
+    .modal-image {
+      width: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+
+      @media only screen and (max-width: 786px) {
+        width: 100px;
+    }
+    }
+
+    @media only screen and (max-width: 786px) {
+        margin: 5px 5px;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    position: absolute;
+}
+}

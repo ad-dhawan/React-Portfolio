@@ -2,21 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./Portfolio.scss";
 import PortfolioList from "../PortfolioList/PortfolioList";
 
-import {
-  // projectsPortfolio,
-  skillsPortfolio,
-  experiencePortfolio,
-  // designPortfolio,
-} from "../data";
+import { skillsPortfolio, experiencePortfolio } from "../data";
 
 const Portfolio = () => {
   const [selected, setSelected] = useState("skills");
   const [data, setData] = useState([]);
   const list = [
-    // {
-    //   id: "projects",
-    //   title: "Projects",
-    // },
     {
       id: "skills",
       title: "Skills",
@@ -25,26 +16,16 @@ const Portfolio = () => {
       id: "experience",
       title: "Experience",
     },
-    // {
-    //   id: "designing",
-    //   title: "Designing",
-    // },
   ];
 
   useEffect(() => {
     switch (selected) {
-      // case "projects":
-      //   setData(projectsPortfolio);
-      //   break;
       case "skills":
         setData(skillsPortfolio);
         break;
       case "experience":
         setData(experiencePortfolio);
         break;
-      // case "designing":
-      //   setData(designPortfolio);
-      //   break;
       default:
         setData(skillsPortfolio);
     }
@@ -68,12 +49,12 @@ const Portfolio = () => {
           <div class="item">
             <img src={d.img} alt="" />
             <div class="title">
-            <h3>{d.title}</h3>
+              <h3>{d.title}</h3>
             </div>
           </div>
         ))}
       </div>
-  </div>
+    </div>
   );
 };
 

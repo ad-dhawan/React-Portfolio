@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+
 // import Topbar from "./components/TopBar/Topbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 
 import './App.scss'
 
-function App() {
+const App = () => {
   // const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div class="app">
