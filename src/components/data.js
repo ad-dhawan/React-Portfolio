@@ -1,4 +1,4 @@
-import Cheftastic from '../Assets/Chefatstic.png'
+import Cheftastic from '../Assets/Cheftastic.png'
 import CovidTracker from '../Assets/CovidTracker.png'
 import zombaze from '../Assets/zombaze.jpg'
 import news from '../Assets/news.png'
@@ -8,13 +8,7 @@ import unity from '../Assets/unity.png'
 import ux from '../Assets/ux.png'
 import dsc from '../Assets/dsc.png'
 import AndroidJams from '../Assets/AndroidJams.png'
-import FurryCartoon from '../Assets/FurryCartoon.png'
-import lowPoly from '../Assets/lowPoly.png'
-import shirley from '../Assets/shirley.png'
-import Siddharth from '../Assets/Siddharth.png'
-import camela from '../Assets/camela.png'
-import snowglobe from '../Assets/snowglobe.png'
-import web from '../Assets/web.png'
+import graphics from '../Assets/graphic.png'
 
 export const skillsPortfolio = [
     {
@@ -52,69 +46,45 @@ export const experiencePortfolio = [
     }
 ];
 
-export const apps = [
+export const projects = [
     {
         id: 1,
-        title: "Chefatstic",
-        img: Cheftastic
+        title: "Cheftastic",
+        img: Cheftastic,
+        description: "An application with variety of recipes and shopping basket. It is live on Google Play Store and uses advance android libraries and components.",
+        link: "https://play.google.com/store/apps/details?id=com.dhawan.cheftastic",
+        linkText: "Download"
     },
     {
         id: 2,
         title: "Covid-19 Tracker",
-        img: CovidTracker
+        img: CovidTracker,
+        description: "An application to see all the Covid-19 statistics and latest news from all over the world. It also lets you see all the cases in Indian States aswell. It is open source and available on github.",
+        link: "https://github.com/ad-dhawan/Covid19India_tracker",
+        linkText: "View Source Code"
     },
     {
         id: 3,
-        title: "RSS News Reader",
-        img: news
-    }
-];
-
-export const game = [
-    {
-        id: 1,
         title: "Zombaze",
-        img: zombaze
-    }
-]
-
-export const graphics = [
-    {
-        id: 1,
-        title: "Snowglobe",
-        img: snowglobe
-    },
-    {
-        id: 2,
-        title: "Furry Cartoon",
-        img: FurryCartoon
-    },
-    {
-        id: 3,
-        title: "Low Poly Illustration",
-        img: lowPoly
+        img: zombaze,
+        description: "An unbeatable FPS survival game in which the player have to solve the maze with zombies in it. This game uses AI in zombies to find and chase the player.",
+        link: "https://github.com/ad-dhawan/ZombieWorld_Unity",
+        linkText: "View Source Code"
     },
     {
         id: 4,
-        title: "Vector Portrait",
-        img: shirley
+        title: "RSS News Reader",
+        img: news,
+        description: "A JAVA based android application which lets you read latest news with almost 50 articles a day. This app uses RSS Feed to fetch and display data.",
+        link: "https://github.com/ad-dhawan/RSS-Reader",
+        linkText: "View Source Code"
     },
     {
         id: 5,
-        title: "Vector Portrait",
-        img: Siddharth
+        title: "Graphic Designing",
+        img: graphics,
+        description: "I DESIGN",
+        link: "https://www.instagram.com/anonymous.digiart/",
+        linkText: "View Artwork"
     },
-    {
-        id: 6,
-        title: "Vector Portrait",
-        img: camela
-    },
-];
-
-export const website = [
-    {
-        id: 1,
-        title: "No Website till now",
-        img: web
-    }
 ]

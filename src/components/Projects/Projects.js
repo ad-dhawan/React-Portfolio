@@ -1,70 +1,21 @@
-import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom'
 import "./Projects.scss";
-
-import Domains from "../Project Domains/Domains";
-import { apps, game, graphics, website } from "../data";
-
-import app from "../../Assets/app.png";
-import web from "../../Assets/web.png";
-import games from "../../Assets/game.png";
-import design from "../../Assets/graphic.png";
+import { projects } from "../data";
 
 const Projects = () => {
-  const [selected, setSelected] = useState("apps");
-  const [data, setData] = useState([]);
-  const projects = [
-    {
-      id: "apps",
-      title: "App Development",
-      img: app,
-    },
-    {
-      id: "game",
-      title: "Game Development",
-      img: games,
-    },
-    {
-      id: "graphics",
-      title: "Graphic Designing",
-      img: design,
-    },
-    {
-      id: "web",
-      title: "Web Development",
-      img: web,
-    },
-  ];
-
-  useEffect(() => {
-    switch (selected) {
-      case "apps":
-        setData(apps);
-        break;
-      case "game":
-        setData(game);
-        break;
-      case "graphics":
-        setData(graphics);
-        break;
-      case "web":
-        setData(website);
-        break;
-      default:
-        setData(apps);
-    }
-  }, [selected]);
   return (
     <div class="projects" id="projects">
       <h1>Projects</h1>
-      <div class="container" >
-        {projects.map((item) => (
-          <Domains
-            title={item.title}
-            img={item.img}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
-          />
+      <div class="container">
+        {projects.map((p) => (
+          <div class="project-item">
+            <img class="project-img" src={p.img} alt="" />
+            <div class="details">
+              <h2 class="h2">{p.title}</h2>
+              <h4 class="h4">{p.description}</h4>
+              <a class="link" href={p.link} target="_blank" rel="noopener noreferrer">{p.linkText}</a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
