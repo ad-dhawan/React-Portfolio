@@ -1,27 +1,29 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-// import Topbar from "./components/TopBar/Topbar";
+import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-// import Menu from "./components/Menu/Menu";
 
 import './App.scss'
 
 const App = () => {
-  // const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <div class="app">
-      {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
-      <div class="sections">
-        <Intro />
-        <Portfolio />
-        <Projects />
-        <Contact />
-      </div>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <div class="pages">
+          <Switch>
+            <Route exact path="/" component={Intro} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </div>
+      </Router>
+    </>
   );
-}
+};
 
 export default App;
