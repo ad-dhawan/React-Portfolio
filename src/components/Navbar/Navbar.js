@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <nav class="navbar">
-        <div class={click ? "nav-container active" : "nav-container"}>
+        <div class="nav-container">
           <Link exact to="/" class="nav-logo">
             AD
           </Link>

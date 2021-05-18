@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar class="navbar" />
+        <Navbar class="nav" />
         <div class="pages">
           <Switch>
             <Route exact path="/" component={Intro} />
