@@ -47,7 +47,7 @@ const Navbar = () => {
                 Projects
               </NavLink>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <NavLink
                 to="/contact"
                 activeClass="active"
@@ -56,7 +56,7 @@ const Navbar = () => {
               >
                 Contact
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <div class="nav-icon" onClick={handleClick}>
             <i class={click ? "fas fa-times" : "fas fa-bars"}></i>

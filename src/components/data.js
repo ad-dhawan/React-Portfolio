@@ -83,7 +83,7 @@ export const projects = [
         id: 5,
         title: "Graphic Designing",
         img: graphics,
-        description: "I DESIGN",
+        description: "Yea, Sometimes I Design Too",
         link: "https://www.instagram.com/anonymous.digiart/",
         linkText: "View Artwork"
     },
