@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,13 +10,13 @@ const Navbar = () => {
     <>
       <nav class="navbar">
         <div class={click ? "nav-container active" : "nav-container"}>
-          <NavLink exact to="/" class="nav-logo">
+          <Link exact to="/" class="nav-logo">
             AD
-          </NavLink>
+          </Link>
 
           <ul class={click ? "nav-menu active" : "nav-menu"}>
             <li class="nav-item">
-              <NavLink
+              <Link
                 exact
                 to="/"
                 activeClass="active"
@@ -24,28 +24,30 @@ const Navbar = () => {
                 onClick={handleClick}
               >
                 Intro
-              </NavLink>
+              </Link>
             </li>
 
             <li class="nav-item">
-              <NavLink
+              <Link
+                exact
                 to="/portfolio"
                 activeClass="active"
                 class="nav-links"
                 onClick={handleClick}
               >
                 Portfolio
-              </NavLink>
+              </Link>
             </li>
             <li class="nav-item">
-              <NavLink
+              <Link
+                exact
                 to="/projects"
                 activeClass="active"
                 class="nav-links"
                 onClick={handleClick}
               >
                 Projects
-              </NavLink>
+              </Link>
             </li>
             {/* <li class="nav-item">
               <NavLink

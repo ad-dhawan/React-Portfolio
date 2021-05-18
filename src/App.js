@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 
 import './App.scss'
 
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar />
+        <Navbar class="navbar" />
         <div class="pages">
           <Switch>
             <Route exact path="/" component={Intro} />

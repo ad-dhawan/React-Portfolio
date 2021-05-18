@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import "./Projects.scss";
 import { projects } from "../data";
 
