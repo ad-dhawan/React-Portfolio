@@ -55,11 +55,11 @@ const Intro = () => {
           class="typed-text"
           style={{ fontSize: "20px", color: "#fff" }}
           strings={[
-            "Android Development",
             "React Native",
+            "Web Development",
+            "Android Development",
             "Unity Game Development",
             "UI/UX",
-            "Web Development",
           ]}
           typeSpeed={50}
           backSpeed={40}
@@ -92,7 +92,7 @@ const Intro = () => {
           class="resume"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1S9P6iWBMSjreRBl_j6WqvnW1YeYZMUzb/view?usp=sharing",
+              "https://drive.google.com/file/d/1pu6bN14FOSgaPZ7Pv3TM1B0JlPzjFKaK/view?usp=sharing",
               "_blank"
             )
           }
