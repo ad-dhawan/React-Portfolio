@@ -92,7 +92,7 @@ const Intro = () => {
           class="resume"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1pu6bN14FOSgaPZ7Pv3TM1B0JlPzjFKaK/view?usp=sharing",
+              "https://drive.google.com/file/d/1oPqg_Aa9k1B9pVlacKXqB0CHly6LyZfE/view?usp=sharing",
               "_blank"
             )
           }

@@ -1,4 +1,5 @@
 import Cheftastic from '../Assets/Cheftastic.png'
+import Crypto from '../Assets/bitcoin.png';
 import CovidTracker from '../Assets/CovidTracker.png'
 import zombaze from '../Assets/zombaze.jpg'
 import news from '../Assets/news.png'
@@ -54,6 +55,14 @@ export const projects = [
         description: "An application with variety of recipes and shopping basket. It is live on Google Play Store and uses advance android libraries and components.",
         link: "https://play.google.com/store/apps/details?id=com.dhawan.cheftastic",
         linkText: "Download"
+    },
+    {
+        id: 2,
+        title: "Crypto Tracker",
+        img: Crypto,
+        description: "A web application made using React JS to view and filter all the latest crypto currency details.",
+        link: "https://crypto-update.netlify.app/",
+        linkText: "Visit website"
     },
     {
         id: 2,
