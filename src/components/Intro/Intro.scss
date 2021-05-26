@@ -4,7 +4,7 @@
     width: 100%;
     height: calc(100vh - 80px);
     flex-direction: row;
-    background-color: #353637;
+    background-color: #010101;
 }
 
 .main-intro{
@@ -22,7 +22,7 @@
 .ad-name{
     font-size: 50px;
     text-transform: uppercase;
-    color: orange;
+    color: #69779b;
 }
 
 .resume{
@@ -33,7 +33,7 @@
     cursor: pointer;
 
     &:hover{
-        background-color: orange;
+        background-color: #69779b;
         transform: scale(1.1);
     }
 }

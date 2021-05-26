@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1f5156;
+  background-color: #010101;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .nav-logo {
-  color: orange;
+  color: #69779b;
   align-items: center;
   font-size: 2rem;
   font-weight: 500;
@@ -64,12 +64,12 @@
 
 .nav-item:hover::after{
     width: 100%;
-    background: orange;
+    background: #69779b;
 }
 
 .nav-item .active {
-    color: orange;
-    border-bottom: 3px solid orange;
+    color: #69779b;
+    border-bottom: 3px solid #69779b;
 }
 
 .nav-icon{

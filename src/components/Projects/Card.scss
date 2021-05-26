@@ -1,0 +1,25 @@
+.card-view {
+  margin: 5px 20px;
+  cursor: pointer;
+
+  .card {
+    width: 260px;
+    height: 350px;
+    flex-direction: column;
+    border: 1px solid #353637;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+
+    .img {
+      width: 230px;
+      height: 230px;
+      border-radius: 10px;
+    }
+
+    a{
+        color: #69779b;
+    }
+  }
+}

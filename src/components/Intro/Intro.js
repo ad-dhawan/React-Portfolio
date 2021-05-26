@@ -12,6 +12,7 @@ const Intro = () => {
   return (
     <div class="intro" id="intro">
       <Particles
+      style={{opacity: 0.4}}
         params={{
           particles: {
             number: {
@@ -105,7 +106,7 @@ const Intro = () => {
         autoPlay
         loop
         muted
-        style={{ opacity: "0.2", width: "100%", zIndex: 1 }}
+        style={{ opacity: "0.15", width: "100%", zIndex: 1 }}
       >
         <source src={BG} type="video/mp4" />
       </video>
