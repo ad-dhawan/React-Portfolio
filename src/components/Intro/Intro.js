@@ -33,7 +33,7 @@ const Intro = () => {
               type: "triangle",
               stroke: {
                 width: 6,
-                color: "#f9ab00",
+                color: "#69779b",
               },
             },
           },
@@ -48,7 +48,7 @@ const Intro = () => {
             width: "150px",
             height: "150px",
             borderRadius: "75px",
-            border: "3px solid orange",
+            border: "3px solid #69779b",
           }}
         />
         <h1 class="ad-name">ankit dhawan</h1>

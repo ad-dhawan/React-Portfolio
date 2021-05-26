@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Logo from "../../Assets/logo.png"
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <nav class="navbar">
         <div class="nav-container">
           <Link exact to="/" class="nav-logo">
-            AD
+            <img src={Logo} alt="logo" class="logo"/>
           </Link>
 
           <ul class={click ? "nav-menu active" : "nav-menu"}>
