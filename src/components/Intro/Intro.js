@@ -8,11 +8,13 @@ import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 import BG from "../../video-bg.mp4";
 import AD from "../../AD.jpg";
 
+import Fade from "react-reveal/Fade";
+
 const Intro = () => {
   return (
     <div class="intro" id="intro">
       <Particles
-      style={{opacity: 0.4}}
+        style={{ opacity: 0.4 }}
         params={{
           particles: {
             number: {

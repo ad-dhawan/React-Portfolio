@@ -4,6 +4,8 @@ import PortfolioList from "../PortfolioList/PortfolioList";
 
 import { skillsPortfolio, experiencePortfolio } from "../data";
 
+import Flip from "react-reveal/Flip";
+
 const Portfolio = () => {
   const [selected, setSelected] = useState("skills");
   const [data, setData] = useState([]);
@@ -47,10 +49,12 @@ const Portfolio = () => {
       <div class="container">
         {data.map((d) => (
           <div class="item">
+            <Flip left>
             <img src={d.img} alt="" />
             <div class="title">
               <h3>{d.title}</h3>
             </div>
+          </Flip>
           </div>
         ))}
       </div>
