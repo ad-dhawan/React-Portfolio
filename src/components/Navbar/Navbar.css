@@ -52,8 +52,9 @@
 
 .nav-item {
   line-height: 50px;
-  margin-right: 1rem;
+  margin-right: 3rem;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .nav-item::after {

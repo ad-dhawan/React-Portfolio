@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./Navbar.css";
-import Logo from "../../Assets/logo.png"
+import Logo from "../../Assets/logo.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -12,17 +13,16 @@ const Navbar = () => {
       <nav class="navbar">
         <div class="nav-container">
           <Link exact to="/" class="nav-logo">
-            <img src={Logo} alt="logo" class="logo"/>
+            <img src={Logo} alt="logo" class="logo" />
           </Link>
 
           <ul class={click ? "nav-menu active" : "nav-menu"}>
             <li class="nav-item">
               <Link
-                exact
-                to="/"
                 activeClass="active"
-                class="nav-links"
-                onClick={handleClick}
+                to="/"
+                spy={true}
+                smooth={true}
               >
                 Intro
               </Link>
@@ -30,22 +30,20 @@ const Navbar = () => {
 
             <li class="nav-item">
               <Link
-                exact
-                to="/portfolio"
                 activeClass="active"
-                class="nav-links"
-                onClick={handleClick}
+                to="portfolio"
+                spy={true}
+                smooth={true}
               >
                 Portfolio
               </Link>
             </li>
             <li class="nav-item">
               <Link
-                exact
-                to="/projects"
                 activeClass="active"
-                class="nav-links"
-                onClick={handleClick}
+                to="projects"
+                spy={true}
+                smooth={true}
               >
                 Projects
               </Link>
