@@ -76,7 +76,7 @@ export const projects = [
         id: 3,
         title: "Zombaze",
         img: zombaze,
-        description: "An unbeatable FPS survival game in which the player have to solve the maze with zombies in it. This game uses AI in zombies to find and chase the player.",
+        description: "An unbeatable FPS survival game in which the player have to solve the maze with zombies in it. This game uses AI script in zombie to chase the player when in specific distance.",
         link: "https://github.com/ad-dhawan/ZombieWorld_Unity",
         linkText: "View Source Code"
     },
