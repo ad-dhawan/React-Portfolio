@@ -18,12 +18,7 @@ const Navbar = () => {
 
           <ul class={click ? "nav-menu active" : "nav-menu"}>
             <li class="nav-item">
-              <Link
-                activeClass="active"
-                to="/"
-                spy={true}
-                smooth={true}
-              >
+              <Link activeClass="active" to="/" spy={true} smooth={true}>
                 Intro
               </Link>
             </li>
@@ -31,20 +26,37 @@ const Navbar = () => {
             <li class="nav-item">
               <Link
                 activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+              >
+                Skills
+              </Link>
+            </li>
+
+            <li class="nav-item">
+              <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+              >
+                Experience
+              </Link>
+            </li>
+
+            {/* <li class="nav-item">
+              <Link
+                activeClass="active"
                 to="portfolio"
                 spy={true}
                 smooth={true}
               >
                 Portfolio
-              </Link>
-            </li>
+              </Link> 
+            </li>*/}
             <li class="nav-item">
-              <Link
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-              >
+              <Link activeClass="active" to="projects" spy={true} smooth={true}>
                 Projects
               </Link>
             </li>
