@@ -8,8 +8,6 @@ import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 import BG from "../../video-bg.mp4";
 import AD from "../../AD.jpg";
 
-import Fade from "react-reveal/Fade";
-
 const Intro = () => {
   return (
     <div class="intro" id="intro">
@@ -58,7 +56,8 @@ const Intro = () => {
           class="typed-text"
           style={{ fontSize: "20px", color: "#fff" }}
           strings={[
-            "React Native",
+            "Tech Enthusiast",
+            "Mobile App Development",
             "Web Development",
             "Android Development",
             "Unity Game Development",

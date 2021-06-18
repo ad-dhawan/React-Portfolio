@@ -9,14 +9,15 @@ const Skills = () => {
       { label: "C", value: 90 },
       { label: "Kotlin", value: 80 },
       { label: "Javascript", value: 80 },
-      { label: "C#", value: 65 },
+      { label: "HTML", value: 60 },
+      { label: "CSS", value: 60 },
       { label: "C++", value: 60 },
-      { label: "Python", value: 60 },
     ],
     technologyData: [
       { label: "React Native", value: 85 },
       { label: "Android", value: 80 },
       { label: "React JS", value: 70 },
+      { label: "Node JS", value: 50 },
       { label: "Game Development", value: 50 },
     ],
   };
@@ -29,7 +30,7 @@ const Skills = () => {
               <div class="rectangle-bar-item">
                 <h3>{data.label}</h3>
                 <ProgressBar
-                  width="400px"
+                  width="350px"
                   height="10px"
                   rect
                   fontColor="gray"
@@ -54,7 +55,7 @@ const Skills = () => {
               <div class="circle-bar-item">
                 <ProgressBar
                   class="circular-progress-bar"
-                  width="230"
+                  width="200"
                   trackWidth="13"
                   percentage={data.value}
                   defColor={{

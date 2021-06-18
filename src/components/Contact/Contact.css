@@ -1,4 +1,101 @@
 .contact {
-    background-color: #353637;
-    height: calc(100vh - 80px);
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: #353637;
+  backdrop-filter: blur(2px);
+  flex-direction: row;
+  display: flex;
+  border-radius: 80px;
+  height: 70vh;
+}
+
+.contact-container {
+  width: 30%;
+  text-align: center;
+}
+
+.sub-contact-container {
+  background: #69779b;
+  height: 100%;
+  border-top-right-radius: 80px;
+}
+
+.icon-container {
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container {
+  width: 70%;
+}
+
+.sub-form-container {
+  background: #69779b;
+  height: 100%;
+}
+
+.style-form-container {
+  background: #353637;
+  height: 100%;
+  border-bottom-left-radius: 80px;
+}
+
+.inputs-container {
+  width: 80%;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.send-button {
+  background: #69779b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 699px) {
+    .main-container{
+        border-radius: 10px;
+    }
+
+    .sub-contact-container{
+        border-top-right-radius: 10px;
+    }
+
+    .sub-contact-container h1 {
+        font-size: 16px;
+    }
+
+    .icon-container{
+      flex-direction: column;
+    }
+
+    .style-form-container {
+        border-bottom-left-radius: 10px;
+    }
 }

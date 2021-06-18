@@ -60,16 +60,11 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            {/* <li class="nav-item">
-              <NavLink
-                to="/contact"
-                activeClass="active"
-                class="nav-links"
-                onClick={handleClick}
-              >
+            <li class="nav-item">
+              <Link activeClass="active" to="contact" spy={true} smooth={true}>
                 Contact
-              </NavLink>
-            </li> */}
+              </Link>
+            </li>
           </ul>
           <div class="nav-icon" onClick={handleClick}>
             <i class={click ? "fas fa-times" : "fas fa-bars"}></i>

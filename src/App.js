@@ -6,13 +6,15 @@ import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects/Projects";
 import Work from "./components/Work/Work";
 import Skills from './components/Skills/skills'
-// import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contact";
+import ScrollToTop from "./components/ScrollToTop/scrollToTop"
 
 import "./App.scss";
 
 const App = () => {
   return (
     <>
+    <ScrollToTop/>
       <Router>
         <Navbar class="nav" />
         <div class="pages">
@@ -26,6 +28,7 @@ const App = () => {
           <Work id="experience" />
           {/* <Portfolio id="portfolio" /> */}
           <Projects id="projects" />
+          <Contact id="contact" />
         </div>
       </Router>
     </>
