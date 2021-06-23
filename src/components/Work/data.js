@@ -5,7 +5,7 @@ import android from '../../Assets/android.png'
 const data = [
   {
     title: "App Developer",
-    place: "Pointlocals (OPC) Pvt.",
+    place: "Pointlocals (OPC) Pvt. Ltd.",
     date: "June-August 2021",
     img: ReactNative,
     tag: {

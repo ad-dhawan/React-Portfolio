@@ -7,6 +7,7 @@ import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 
 import BG from "../../video-bg.mp4";
 import AD from "../../AD.jpg";
+import Resume from '../../Ankit Dhawan Resume.pdf'
 
 const Intro = () => {
   return (
@@ -92,14 +93,8 @@ const Intro = () => {
         </div>
         <div
           class="resume"
-          onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/1oPqg_Aa9k1B9pVlacKXqB0CHly6LyZfE/view?usp=sharing",
-              "_blank"
-            )
-          }
         >
-          <h3>RESUME</h3>
+          <a href = {Resume} target = "_blank">Resume</a>
         </div>
       </div>
       <video

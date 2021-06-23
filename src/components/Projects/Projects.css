@@ -11,11 +11,17 @@ h1 {
   font-size: 50px;
 }
 
+.projects-container {
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
 .info-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  transform: scale(0.8);
+  margin-top: 8%;
 }
 
 .info-container:nth-child(even) {
