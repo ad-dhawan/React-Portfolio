@@ -3,10 +3,23 @@
   padding: 0;
 }
 
-pages{
-  background-color: #353637;
-}
-
 body{
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  background: #010101;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #69779b;
+  border-radius: 25px;
 }
