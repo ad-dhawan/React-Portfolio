@@ -5,6 +5,16 @@ import android from '../../Assets/android.png'
 const data = [
   {
     title: "App Developer",
+    place: "Grape Town",
+    date: "August 2021 - Present ",
+    img: ReactNative,
+    tag: {
+      color: '#61dbfb',
+      text: "React Native",
+    },
+  },
+  {
+    title: "App Developer",
     place: "Pointlocals (OPC) Pvt. Ltd.",
     date: "June-August 2021",
     img: ReactNative,
