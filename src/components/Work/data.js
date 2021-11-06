@@ -4,7 +4,7 @@ import android from '../../Assets/android.png'
 
 const data = [
   {
-    title: "App Developer",
+    title: "App Developer Intern",
     place: "Grape Town",
     date: "August 2021 - Present ",
     img: ReactNative,
@@ -14,7 +14,7 @@ const data = [
     },
   },
   {
-    title: "App Developer",
+    title: "App Developer Intern",
     place: "Pointlocals (OPC) Pvt. Ltd.",
     date: "June-August 2021",
     img: ReactNative,
