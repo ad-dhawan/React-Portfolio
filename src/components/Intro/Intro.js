@@ -17,7 +17,7 @@ const Intro = () => {
         params={{
           particles: {
             number: {
-              value: 50,
+              value: 30,
               density: {
                 enable: true,
                 value_area: 900,

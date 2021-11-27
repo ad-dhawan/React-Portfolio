@@ -124,6 +124,12 @@
   max-width: 400px;
 }
 
+.timeline-item-content .desc {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  max-width: 400px;
+}
+
 .timeline-item-content img {
   border: 3px solid #e17b77;
   border-radius: 50%;

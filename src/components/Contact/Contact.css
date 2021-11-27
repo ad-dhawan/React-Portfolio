@@ -50,6 +50,9 @@
   background: #353637;
   height: 100%;
   border-bottom-left-radius: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .inputs-container {

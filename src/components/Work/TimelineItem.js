@@ -5,6 +5,7 @@ const TimelineItem = ({ data }) => (
     <div class="timeline-item-content">
         <time>{data.date}</time>
         <p>{data.title}</p>
+        <p class="desc">{data.desc}</p>
         <time>➤ {data.place}</time>
         <span class="tag" style={{background: data.tag.color}}>
             {data.tag.text}

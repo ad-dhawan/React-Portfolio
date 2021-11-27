@@ -6,7 +6,8 @@ const data = [
   {
     title: "App Developer Intern",
     place: "Grape Town",
-    date: "August 2021 - Present ",
+    date: "August 2021 - December 2021 ",
+    desc: "Creating UGC based mobile application from scratch.",
     img: ReactNative,
     tag: {
       color: '#61dbfb',
@@ -16,7 +17,8 @@ const data = [
   {
     title: "App Developer Intern",
     place: "Pointlocals (OPC) Pvt. Ltd.",
-    date: "June-August 2021",
+    date: "June 2021 - August 2021",
+    desc: "Redesign UI, Integrated APIs and resolved issues",
     img: ReactNative,
     tag: {
       color: '#61dbfb',
@@ -25,7 +27,7 @@ const data = [
   },
   {
     title: "Campus Facilitator",
-    place: "Android Study Jams",
+    place: "Android Study Jams DSC DCE",
     date: "December 2020",
     img: android,
     tag: {
@@ -35,7 +37,7 @@ const data = [
   },
   {
     title: "Core Team Lead",
-    place: "Google DSC DCE",
+    place: "Google DSC",
     date: "October-June 2021",
     img: dsc,
     tag: {
