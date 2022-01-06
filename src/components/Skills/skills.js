@@ -7,8 +7,8 @@ const Skills = () => {
   const data = {
     languageData: [
       { label: "C", value: 80 },
-      { label: "Kotlin", value: 80 },
-      { label: "Javascript", value: 70 },
+      { label: "Javascript", value: 80 },
+      { label: "Kotlin", value: 70 },
       { label: "HTML", value: 60 },
       { label: "CSS", value: 60 },
       { label: "C++", value: 60 },
