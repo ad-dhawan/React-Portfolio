@@ -14,10 +14,10 @@ const Skills = () => {
       { label: "C++", value: 60 },
     ],
     technologyData: [
-      { label: "React Native", value: 80 },
-      { label: "Android App Development", value: 70 },
+      { label: "React Native", value: 90 },
       { label: "React JS", value: 70 },
-      { label: "Node JS", value: 50 },
+      { label: "Node JS", value: 60 },
+      { label: "Android App Development", value: 60 },
       { label: "Unity Game Development", value: 50 },
     ],
   };
