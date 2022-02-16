@@ -11,6 +11,7 @@ import dsc from '../Assets/dsc.png'
 import AndroidJams from '../Assets/AndroidJams.png'
 import graphics from '../Assets/graphic.png'  
 import fcmAdmin from '../Assets/fcm-admin.png'
+import CheftasticRecreate from '../Assets/CheftasticRecreate.png'
 
 export const skillsPortfolio = [
     {
@@ -49,6 +50,14 @@ export const experiencePortfolio = [
 ];
 
 export const projects = [
+    {
+        id: 5,
+        title: "Cheftastic Recreate",
+        img: CheftasticRecreate,
+        description: "A full stack UGC based application for users to upload and explore recipes.",
+        // link: "https://github.com/ad-dhawan/fcm-admin",
+        linkText: "Developing"
+    },
     {
         id: 4,
         title: "FCM Admin",

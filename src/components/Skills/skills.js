@@ -15,8 +15,8 @@ const Skills = () => {
     ],
     technologyData: [
       { label: "React Native", value: 90 },
+      { label: "Node JS", value: 80 },
       { label: "React JS", value: 70 },
-      { label: "Node JS", value: 70 },
       { label: "Android App Development", value: 60 },
       { label: "Unity Game Development", value: 50 },
     ],

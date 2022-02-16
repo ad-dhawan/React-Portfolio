@@ -57,12 +57,11 @@ const Intro = () => {
           class="typed-text"
           style={{ fontSize: "20px", color: "#fff" }}
           strings={[
-            "Tech Enthusiast",
-            "Mobile App Development",
-            "Web Development",
-            "Android Development",
-            "Unity Game Development",
-            "UI/UX",
+            "I am a Full Stack Developer",
+            "I am a Mobile App Developer",
+            "I am a Web Developer",
+            "I am a UI/UX Designer",
+            "I am a Tech Enthusiast"
           ]}
           typeSpeed={50}
           backSpeed={40}
