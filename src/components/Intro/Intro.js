@@ -7,7 +7,7 @@ import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 
 import BG from "../../video-bg.mp4";
 import AD from "../../AD.jpg";
-import Resume from '../../Ankit Dhawan Resume.pdf'
+import Resume from '../../AnkitDhawanResume.pdf'
 
 const Intro = () => {
   return (
