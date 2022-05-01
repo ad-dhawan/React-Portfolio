@@ -4,7 +4,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #010101;
+  background-color: var(--dark_primary);
 }
 
 h1 {
@@ -41,7 +41,7 @@ a {
 
 .info-container a {
   text-decoration: none;
-  color: #69779b;
+  color: var(--primary);
 };
 
 .info-container a:hover {

@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #010101;
+  background-color: var(--dark_primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .nav-logo {
-  color: #69779b;
+  color: var(--primary);
   align-items: center;
   margin-left: 20px;
   text-decoration: none;
@@ -68,12 +68,12 @@
 
 .nav-item:hover::after {
   width: 100%;
-  background: #69779b;
+  background: var(--dark_primary);
 }
 
 .nav-item .active {
-  color: #69779b;
-  border-bottom: 3px solid #69779b;
+  color: var(--dark_primary);
+  border-bottom: 3px solid var(--dark_primary);
 }
 
 .nav-icon {
@@ -95,7 +95,7 @@
   }
 
   .nav-menu.active {
-    background: #010101;
+    background: var(--dark_primary);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

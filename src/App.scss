@@ -1,10 +1,17 @@
+:root {
+  --dark_primary: #010101; 
+  --primary: #69779b; 
+  --light_primary: #69779b; 
+  --bg_color: #888888; 
+}
+
 *{
   margin: 0;
   padding: 0;
 }
 
 body{
-  color: white;
+  color: var(--light_primary);
 }
 
 ::-webkit-scrollbar {
@@ -16,10 +23,10 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: #010101;
+  background: var(--dark_primary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #69779b;
+  background: var(--primary);
   border-radius: 25px;
 }

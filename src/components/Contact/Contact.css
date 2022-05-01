@@ -1,5 +1,5 @@
 .contact {
-  background-color: #010101;
+  background-color: var(--dark_primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .sub-contact-container {
-  background: #69779b;
+  background: var(--primary);
   height: 100%;
   border-top-right-radius: 80px;
 }
@@ -42,7 +42,7 @@
 }
 
 .sub-form-container {
-  background: #69779b;
+  background: var(--primary);
   height: 100%;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .send-button {
-  background: #69779b;
+  background: var(--primary);
   padding: 10px;
   border-radius: 5px;
   margin-top: 15px;

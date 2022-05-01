@@ -2,52 +2,8 @@ import Cheftastic from '../Assets/Cheftastic Portfolio Image.png'
 import Crypto from '../Assets/Crypto Tracker Portfolio Image.png';
 import CovidTracker from '../Assets/Covid Tracker Portfolio Image.png'
 import zombaze from '../Assets/Zombaze Portfolio Image.png'
-import news from '../Assets/news.png'
-import ReactNative from '../Assets/ReactNative.png'
-import android from '../Assets/android.png'
-import unity from '../Assets/unity.png'
-import ux from '../Assets/ux.png'
-import dsc from '../Assets/dsc.png'
-import AndroidJams from '../Assets/AndroidJams.png'
-import graphics from '../Assets/graphic.png'  
 import fcmAdmin from '../Assets/fcm-admin.png'
 import CheftasticRecreate from '../Assets/CheftasticRecreate.png'
-
-export const skillsPortfolio = [
-    {
-        id: 1,
-        title: "React Native",
-        img: ReactNative
-    },
-    {
-        id: 2,
-        title: "Native Android",
-        img: android
-    },
-    {
-        id: 3,
-        title: "Unity Game Development",
-        img: unity
-    },
-    {
-        id: 4,
-        title: "UI/UX",
-        img: ux
-    }
-];
-
-export const experiencePortfolio = [
-    {
-        id: 1,
-        title: "Developer Students Club Core Team Member",
-        img: dsc
-    },
-    {
-        id: 2,
-        title: "Campus Facilitator for Android Study Jams 2021",
-        img: AndroidJams
-    }
-];
 
 export const projects = [
     {
@@ -98,12 +54,4 @@ export const projects = [
         link: "https://github.com/ad-dhawan/ZombieWorld_Unity",
         linkText: "View Source Code"
     },
-    // {
-    //     id: 5,
-    //     title: "Graphic Designing",
-    //     img: graphics,
-    //     description: "Yea, Sometimes I Design Too",
-    //     link: "https://www.instagram.com/anonymous.digiart/",
-    //     linkText: "View Artwork"
-    // },
 ]
