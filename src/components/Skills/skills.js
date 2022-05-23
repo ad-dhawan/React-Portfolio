@@ -6,19 +6,13 @@ import ProgressBar from "react-animated-progress-bar";
 const Skills = () => {
   const data = {
     languageData: [
-      { label: "C", value: 80 },
-      { label: "Javascript", value: 80 },
-      { label: "Kotlin", value: 70 },
-      { label: "HTML", value: 60 },
-      { label: "CSS", value: 60 },
-      { label: "C++", value: 60 },
+      { label: "C", value: 50 },
+      { label: "Javascript", value: 70 },
     ],
     technologyData: [
-      { label: "React Native", value: 90 },
-      { label: "Node JS", value: 80 },
-      { label: "React JS", value: 70 },
-      { label: "Android App Development", value: 60 },
-      { label: "Unity Game Development", value: 50 },
+      { label: "UI/UX", value: 80 },
+      { label: "React Native", value: 70 },
+      { label: "React JS", value: 50 },
     ],
   };
   return (

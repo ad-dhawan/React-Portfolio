@@ -36,7 +36,7 @@ const Contact = () => {
                 style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/ankit-dhawan-17b552161/",
+                    "https://www.linkedin.com/in/bhumika-chauhan-605385204",
                     "_blank"
                   )
                 }
@@ -44,15 +44,15 @@ const Contact = () => {
               <GitHub
                 style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
                 onClick={() =>
-                  window.open("https://github.com/ad-dhawan", "_blank")
+                  window.open("https://github.com/bhumikachauhan04", "_blank")
                 }
               />
-              <Instagram
+              {/* <Instagram
                 style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
                 onClick={() =>
                   window.open("https://www.instagram.com/dhawan.exe/", "_blank")
                 }
-              />
+              /> */}
             </div>
           </div>
         </div>

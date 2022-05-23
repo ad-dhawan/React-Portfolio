@@ -4,6 +4,8 @@ import CovidTracker from '../Assets/Covid Tracker Portfolio Image.png'
 import zombaze from '../Assets/Zombaze Portfolio Image.png'
 import fcmAdmin from '../Assets/fcm-admin.png'
 import CheftasticRecreate from '../Assets/CheftasticRecreate.png'
+import spotify from '../Assets/spotify.png';
+import swiggy from '../Assets/swiggy.png';
 
 export const projects = [
     {
@@ -16,42 +18,18 @@ export const projects = [
     },
     {
         id: 4,
-        title: "FCM Admin",
-        img: fcmAdmin,
-        description: "Rest API to register token and send notifications via Firebase Cloud Messaging",
-        link: "https://github.com/ad-dhawan/fcm-admin",
-        linkText: "View Source Code"
+        title: "Spotify Clone",
+        img: spotify,
+        description: "Spotify Clone screens with additional features",
+        link: "https://www.figma.com/file/OcF54pFBcYODtJG5xtl655/Spotify-Social?node-id=32%3A3489",
+        linkText: "Show Prototype"
     },
     {
         id: 1,
-        title: "Cheftastic",
-        img: Cheftastic,
-        description: "An application with variety of recipes and shopping basket. It is live on Google Play Store and uses advance android libraries and components.",
-        link: "https://play.google.com/store/apps/details?id=com.dhawan.cheftastic",
-        linkText: "Download"
-    },
-    {
-        id: 2,
-        title: "Crypto Tracker",
-        img: Crypto,
-        description: "A web application made using React JS to view and filter all the latest crypto currency details.",
-        link: "https://crypto-update.netlify.app/",
-        linkText: "Visit website"
-    },
-    {
-        id: 2,
-        title: "Covid-19 Tracker",
-        img: CovidTracker,
-        description: "An application to see all the Covid-19 statistics and latest news from all over the world. It also lets you see all the cases in Indian States aswell. It is open source and available on github.",
-        link: "https://github.com/ad-dhawan/Covid19India_tracker",
-        linkText: "View Source Code"
-    },
-    {
-        id: 3,
-        title: "Zombaze",
-        img: zombaze,
-        description: "An unbeatable FPS survival game in which the player have to solve the maze with zombies in it. This game uses AI script in zombie to chase the player when in specific distance.",
-        link: "https://github.com/ad-dhawan/ZombieWorld_Unity",
-        linkText: "View Source Code"
+        title: "Swiggy Clone",
+        img: swiggy,
+        // description: "Swiggy Clone",
+        link: "https://www.figma.com/file/TgKJwaOtjG6VGOgL78BFBZ/figma-1?node-id=15%3A129",
+        linkText: "Show Prototype"
     },
 ]
