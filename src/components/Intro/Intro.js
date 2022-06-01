@@ -6,7 +6,7 @@ import Particles from "react-particles-js";
 import { GitHub, LinkedIn } from "@material-ui/icons";
 
 import B from "../../B.png";
-import Resume from "../../AnkitDhawanResume.pdf";
+import Resume from "../../BhumikaChauhanResume.pdf";
 
 const Intro = () => {
   return (
