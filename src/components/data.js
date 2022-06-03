@@ -1,8 +1,3 @@
-import Cheftastic from '../Assets/Cheftastic Portfolio Image.png'
-import Crypto from '../Assets/Crypto Tracker Portfolio Image.png';
-import CovidTracker from '../Assets/Covid Tracker Portfolio Image.png'
-import zombaze from '../Assets/Zombaze Portfolio Image.png'
-import fcmAdmin from '../Assets/fcm-admin.png'
 import CheftasticRecreate from '../Assets/CheftasticRecreate.png'
 import spotify from '../Assets/spotify.png';
 import swiggy from '../Assets/swiggy.png';
