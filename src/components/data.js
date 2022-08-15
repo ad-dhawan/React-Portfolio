@@ -11,8 +11,8 @@ export const projects = [
         title: "Cheftastic Recreate",
         img: CheftasticRecreate,
         description: "A full stack UGC based application for users to upload and explore recipes.",
-        // link: "https://github.com/ad-dhawan/fcm-admin",
-        linkText: "Developing"
+        link: "https://play.google.com/store/apps/details?id=com.dhawan.cheftastic",
+        linkText: "Download"
     },
     {
         id: 4,

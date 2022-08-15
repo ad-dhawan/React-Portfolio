@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import {sendEmail} from './js'
 
 import emailjs from "emailjs-com";
 import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
@@ -25,6 +26,7 @@ const Contact = () => {
       );
     e.target.reset();
   }
+  
   return (
     <div id="contact" class="contact">
       <div class="main-container">

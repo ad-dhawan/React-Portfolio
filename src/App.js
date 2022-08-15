@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop/scrollToTop"
 import "./App.scss";
 
 const App = () => {
+
   return (
     <>
     <ScrollToTop/>
