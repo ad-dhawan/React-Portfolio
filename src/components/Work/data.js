@@ -5,6 +5,17 @@ import android from '../../Assets/android.png'
 const data = [
   {
     title: "App Developer Intern",
+    place: "Global Groupware Solutions",
+    date: "September 2022 - Present ",
+    desc: "Enhancing the Employwise mobile application",
+    img: ReactNative,
+    tag: {
+      color: '#61dbfb',
+      text: "React Native",
+    },
+  },
+  {
+    title: "App Developer Intern",
     place: "Grape Town",
     date: "August 2021 - December 2021 ",
     desc: "Creating UGC based mobile application from scratch.",
