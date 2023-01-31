@@ -8,6 +8,7 @@ import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 import BG from "../../video-bg.mp4";
 import AD from "../../AD.jpg";
 import Resume from '../../AnkitDhawanResume.pdf'
+import medium from '../../Assets/medium-png.png'
 
 const Intro = () => {
   return (
@@ -67,9 +68,9 @@ const Intro = () => {
           backSpeed={40}
           loop
         />
-        <div style={{ zIndex: 2 }}>
+        <div style={{ zIndex: 2, alignItems: 'center', justifyContent: 'center' }}>
           <LinkedIn
-            style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
+            style={{ fontSize: "40px", margin: "10px", cursor: "pointer" }}
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/ankit-dhawan-17b552161/",
@@ -83,12 +84,23 @@ const Intro = () => {
               window.open("https://github.com/ad-dhawan", "_blank")
             }
           />
-          <Instagram
+          <a href="https://medium.com/@ankit.ad.dhawan" target = "_blank">
+          <img
+          classname="medium"
+          src={medium}
+          alt="medium"
+          style={{
+            width: "60px",
+            height: "60px",
+          }}
+        />
+        </a>
+          {/* <Instagram
             style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
             onClick={() =>
               window.open("https://www.instagram.com/dhawan.exe/", "_blank")
             }
-          />
+          /> */}
         </div>
         <div
           class="resume"

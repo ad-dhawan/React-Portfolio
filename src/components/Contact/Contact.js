@@ -49,12 +49,13 @@ const Contact = () => {
                   window.open("https://github.com/ad-dhawan", "_blank")
                 }
               />
-              <Instagram
+
+              {/* <Instagram
                 style={{ fontSize: "35px", margin: "10px", cursor: "pointer" }}
                 onClick={() =>
                   window.open("https://www.instagram.com/dhawan.exe/", "_blank")
                 }
-              />
+              /> */}
             </div>
           </div>
         </div>
