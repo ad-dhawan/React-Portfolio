@@ -1,14 +1,26 @@
 import dsc from '../../Assets/dsc.png';
 import ReactNative from '../../Assets/ReactNative.png';
 import android from '../../Assets/android.png'
+import EW from '../../Assets/ew.jpg'
 
 const data = [
   {
-    title: "App Developer Intern",
-    place: "Global Groupware Solutions",
-    date: "September 2022 - Present ",
+    title: "Software Developer",
+    place: "EmployWise",
+    date: "February 2023 - Present",
+    desc: "Integrating new modules and handling the Android & iOS application",
+    img: EW,
+    tag: {
+      color: '#61dbfb',
+      text: "React Native",
+    },
+  },
+  {
+    title: "Software Developer Intern",
+    place: "EmployWise",
+    date: "September 2022 - February 2023",
     desc: "Enhancing the Employwise mobile application",
-    img: ReactNative,
+    img: EW,
     tag: {
       color: '#61dbfb',
       text: "React Native",

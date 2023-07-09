@@ -4,8 +4,17 @@ import CovidTracker from '../Assets/Covid Tracker Portfolio Image.png'
 import zombaze from '../Assets/Zombaze Portfolio Image.png'
 import fcmAdmin from '../Assets/fcm-admin.png'
 import CheftasticRecreate from '../Assets/CheftasticRecreate.png'
+import Ora from '../Assets/ora.png';
 
 export const projects = [
+    {
+        id: 6,
+        title: "Ora",
+        img: Ora,
+        description: "Ora is a powerful event hosting platform that provides users with an easy-to-use and intuitive interface for creating and hosting events of all kinds.",
+        link: "https://weareora.in/",
+        linkText: "Visit Website"
+    },
     {
         id: 5,
         title: "Cheftastic Recreate",
